@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".credits">
+
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/goofballs" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This application was created for Missouri S and T's PickHacks Hackathon. Over the course of 21 hours this app was developed. "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the first mobile application any of us have developed. It is also our first Augmented Reality project, and even out first Hackathon! After working on this application we intend to pursue mobile development further with the inclusion of cloud platforms. Below are our sources and sites of reference for this project. Thanks for reading!"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://3dexport.com/free-3dmodel-3-stadium-low-poly-180140.htm   -    3d Stadium Model (small)"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A big thanks to the google and AR Core, and sourceform dev team for supplying sample projects which helped get us on track!"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Another thanks to the wonderful people on codelabs.com, yudiz.com, hackernoon.com, and stackoverflow for help on the tricky sections! "
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToHome"
+            android:text="Back" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

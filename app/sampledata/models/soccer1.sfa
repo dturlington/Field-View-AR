@@ -1,0 +1,42 @@
+{
+  materials: [
+    {
+      name: 'color_4634441',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.27450999999999998,
+            0.71764700000000003,
+            0.286275,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/soccer1.obj',
+    name: 'soccer1',
+    recenter: 'root',
+    scale: 0.95238100000000003,
+  },
+  version: '0.54:2',
+}

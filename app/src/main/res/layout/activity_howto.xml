@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".howto">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="goToHome"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="659dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Welcome to Field Planner AR! Below are some instructions that will help you begin usiong the app!"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text='To start, below is the main menu, here you have the option to open the AR camera, view this page, or enter the creidts page. We will start by opening the camera by hitting the "AR Field" Button.'
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="713dp"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/screen1" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="713dp"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/screen2" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="When you first open the AR camera you will be presented with a prompt to move your device in order to identify a suitable surface to project AR onto. Move your phone around until you see something similar to the picture below. "
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="713dp"
+                    app:srcCompat="@drawable/screen3" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Once you see the white and singular green dot on your screen you are now able to place objects within the virtual environment. "
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="713dp"
+                    app:srcCompat="@drawable/screen4" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text='For this example we have selected the small field (bottom left) Tapping the icon will place the field on the green dot on your screen. Once placed you can move the field with your finger(s) and zoom and rotate as you see fit. When finished, lock the field with the "Field Lock" Button in the bottom right. '
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="713dp"
+                    app:srcCompat="@drawable/screen5" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text='With your field now placed you can insert red or green "players" by pressing either the red or green circles on the toolbar. Remember that objects are placed on the green dot, but can be altered manually with your finger input. '
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="713dp"
+                    app:srcCompat="@drawable/screen6" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text='By using either the "clear" button or "undo" button you can remove the objects and try out the other available field. '
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="750dp"
+                    app:srcCompat="@drawable/screen7" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:text="This app allows for the creation of multiple fields as well as multiple entites. Feel free to place as many as you like! Remember that the app uses AR so you can walk around the field to get better views as well! Thanks for using the app, and have fun!"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
